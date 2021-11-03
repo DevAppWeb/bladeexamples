@@ -5,13 +5,18 @@
         <title>App Name - @yield('title')</title>
     </head>
     <body>
-        @section('sidebar')
-        This is the master sidebar.
-        @show
-
-        <div class="container">
+        <div>
+            @section('sidebar')
+            This is the master sidebar.
+            @show
+        </div>
+        <div>
             @yield('content')
         </div>
+         <div>
+            @yield('alerta')
+        </div>
+        @yield('footer')
     </body>
 </html>
 

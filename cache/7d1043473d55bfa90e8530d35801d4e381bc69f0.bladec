@@ -5,13 +5,18 @@
  <title>App Name - <?php echo $this->yieldContent('title'); ?></title>
  </head>
  <body>
+ <div>
  <?php $this->startSection('sidebar'); ?>
  This is the master sidebar.
  <?php echo $this->yieldSection(); ?>
-
- <div class="container">
+ </div>
+ <div>
  <?php echo $this->yieldContent('content'); ?>
  </div>
+ <div>
+ <?php echo $this->yieldContent('alerta'); ?>
+ </div>
+ <?php echo $this->yieldContent('footer'); ?>
  </body>
 </html>
 
