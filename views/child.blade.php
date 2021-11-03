@@ -19,7 +19,7 @@
 
 @section('alerta')
 @component('alerta',array('title'=>'COMPONENT #1','color'=>"red"))
-    <strong>Ooooops</strong> Algo ha ido mal!
+<strong>Ooooops</strong> Algo ha ido mal!
 @endcomponent
 @endsection
 
