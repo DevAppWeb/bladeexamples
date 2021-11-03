@@ -2,6 +2,7 @@
 
 <html>
  <head>
+ <base rel="canonical" href="<?php  echo $this->getBaseUrl() ;?>" />
  <title>App Name - <?php echo $this->yieldContent('title'); ?></title>
  </head>
  <body>

@@ -2,6 +2,7 @@
 
 <html>
     <head>
+        @base
         <title>App Name - @yield('title')</title>
     </head>
     <body>
@@ -13,7 +14,7 @@
         <div>
             @yield('content')
         </div>
-         <div>
+        <div>
             @yield('alerta')
         </div>
         @yield('footer')
